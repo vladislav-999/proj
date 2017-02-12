@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 10pt;
+    font-family: Calibri;
+}
+
+.navbar{
+    margin: 0;
+    height: 70px;
+    background: #ededed;
+    border: none;
+    border-bottom: solid 1px #999999;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #222;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #222;
+    background-color: #b0b0b0;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+     color: #222;
+     background-color: #b0b0b0;
+ }
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+     color: #222;
+}
+
+.widScroll{
+    width: 100%;
+    overflow: scroll;
+    position: absolute;
+    top: 70px;
+    bottom: 40px;
+}
+textarea{
+    border: none;
+    resize: inherit;
+    overflow-y: hidden;
+}
+table{
+    border: 1px solid #cecece;
+    display: table-cell;
+    zoom: 100%;
+}
+table th{
+    text-align: center;
+    font-weight: normal;
+}
+
+table thead th {
+    background: #dee2e7;
+    text-align: center;
+    color: #222;
+    font-weight: normal;
+
+}
+table thead th:first-child{
+    min-width: 25px !important;
+
+}
+
+th{
+    border: 1px solid #CECECE;
+}
+th div{
+    display: block;
+    overflow: hidden;
+    margin: 0;
+
+}
+tr{
+}
+tr > th:first-child{
+    text-align: center;
+    width: 30px;
+    background: #dee2e7;
+    color: #222;
+}
+th{
+    border: 1px solid #CECECE;
+}
+
+input{
+    font-size: 12pt;
+    font-family: Calibri;
+}
+
+footer{
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    bottom: 0;
+    background: #ededed;
+    border-top: solid 1px #999999;
+
+}
+
+tbody tr th:hover{
+   /* border: 2px solid rgba(88, 152, 192, 0.7);*/
+}
+
+.tabs > .nav-tabs{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.tabs > .tabsSize{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+input[type="range"]:active{
+    border: none;
+}
+
+#imgLoad{
+    position: absolute;
+    top: 48%;
+    left: 48%;
+}
+
+.inputData{
+    height: 20px;
+    border: solid 1px #B0BEC5;
+    margin: 5px;
+    width: 80%;
+    float: left;
+}
+.inputIcon{
+    height: 20px;
+    width: 20px;
+    border: solid 1px #B0BEC5;
+    margin: 5px;
+    float: left;
+    padding: 2px;
+}
+#DataInput{
+    position: absolute;
+    top: 70px;
+    width: 100%
+}
+
+.searchBlock{
+    width: 200px;
+    margin: 10px;
+    float: right;
+}
+.searchBlock input{
+    height: 22px;
+    margin-right: 10px;
+}
+#search{
+    padding: 3px;
+    height: 26px;
+    width: 50px;
+    float:right;
+    cursor: pointer;
+}
+#search:hover{
+    color: #27a5ff;
+}
+#rowParam, #columnParam{
+    margin: 5px;
+    color: #333;
+    font-size: 18px;
+}
+#rowParam:hover, #columnParam:hover{
+    cursor: pointer;
+    color: #888;
+}
+#stopParam{
+    float: left;
+    color: #7a7a7a;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+#stopParam:hover{
+    color: #a2352c;
+}
+.searchParam{
+    float: left;
+    background: #26e2e5;
+    padding: 3px;
+    border-radius: 6px;
+    margin: 2px;
+}
+.searchParam:hover{
+    cursor: pointer;
+    background: #3f91e5;
+}
+.searchParam span{
+
+}
+#idParamBut, .reset{
+    padding: 3px !important;
+    margin-top: 5px;
+    float: left;
+}
+.reset {
+    margin-left: 10px;
+}
+.dropdown-menu > ul > li :hover{
+    background: #f5f5f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
